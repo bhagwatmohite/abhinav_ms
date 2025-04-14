@@ -26,7 +26,7 @@ const Home = () => {
               <a href="index.html" className="nav-item nav-link active">Home</a>
               <a href="about.html" className="nav-item nav-link">About Us</a>
               <a href="classNamees.html" className="nav-item nav-link">classes</a>
-              <div className="nav-item dropdown">
+              {/* <div className="nav-item dropdown">
                 <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                 <div className="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
                   <a href="facility.html" className="dropdown-item">School Facilities</a>
@@ -36,7 +36,7 @@ const Home = () => {
                   <a href="testimonial.html" className="dropdown-item">Testimonial</a>
                   <a href="404.html" className="dropdown-item">404 Error</a>
                 </div>
-              </div>
+              </div> */}
               <a href="contact.html" className="nav-item nav-link">Contact Us</a>
             </div>
             {/* <a href="" className="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i className="fa fa-arrow-right ms-3"></i></a> */}

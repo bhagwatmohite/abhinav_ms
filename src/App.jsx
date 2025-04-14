@@ -11,14 +11,16 @@ function App() {
     <>
       {/* <Home></Home>
       <AboutUs></AboutUs> */}
-      <Router>
-        <Routes>
-          <Route element={<HomeLayoute />} >
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutus" element={<AboutUs />} />
-          </Route>
-        </Routes>
-      </Router>
+      <div className="container-xxl bg-white p-0" style={{ marginLeft: "100px" }}>
+        <Router>
+          <Routes>
+            <Route element={<HomeLayoute />} >
+              <Route path="/" element={<Home />} />
+              <Route path="/aboutus" element={<AboutUs />} />
+            </Route>
+          </Routes>
+        </Router>
+      </div>
     </>
   )
 }

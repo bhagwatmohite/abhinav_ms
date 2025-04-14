@@ -1,20 +1,24 @@
 
-
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import AboutUs from './components/AboutUs';
 import Home from './components/Home';
+import HomeLayoute from './Layoutes/HomeLayoute';
 
 
 function App() {
 
   return (
     <>
-      <Home></Home>
-      {/* <Router>
+      {/* <Home></Home>
+      <AboutUs></AboutUs> */}
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route element={<HomeLayoute />} >
+            <Route path="/" element={<Home />} />
+            <Route path="/aboutus" element={<AboutUs />} />
+          </Route>
         </Routes>
-      </Router> */}
-
+      </Router>
     </>
   )
 }

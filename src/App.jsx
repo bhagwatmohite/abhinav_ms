@@ -11,7 +11,7 @@ function App() {
     <>
       {/* <Home></Home>
       <AboutUs></AboutUs> */}
-      <div className="container-xxl bg-white p-0" style={{ marginLeft: "100px" }}>
+      <div className="container-xxl bg-white p-0">
         <Router>
           <Routes>
             <Route element={<HomeLayoute />} >

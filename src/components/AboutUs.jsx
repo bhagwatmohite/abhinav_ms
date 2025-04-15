@@ -11,9 +11,6 @@ const AboutUs = () => {
             <span className="sr-only">Loading...</span>
           </div>
         </div> */}
-
-
-
         <div className="container-xxl py-5 page-header position-relative mb-5">
           <div className="container py-5">
             <h1 className="display-2 text-white animated slideInDown mb-4">About Us</h1>
